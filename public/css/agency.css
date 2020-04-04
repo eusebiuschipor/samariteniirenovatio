@@ -1055,6 +1055,10 @@ ul.archive {
   .show-video {
     margin-bottom: 10px;
   }
+
+  #mainNav {
+    background-color: #212529;
+  } 
 }
 
 /* 
@@ -1075,6 +1079,10 @@ ul.archive {
   .show-video {
     margin-bottom: 10px;
   }
+
+  #mainNav {
+    background-color: #212529;
+  } 
 }
 
 /* 
@@ -1090,4 +1098,8 @@ ul.archive {
   .show-video {
     margin-bottom: 10px;
   }
+
+  #mainNav {
+    background-color: #212529;
+  } 
 }
