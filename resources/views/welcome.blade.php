@@ -152,7 +152,7 @@
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-bible fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="service-heading">Evanghelizăm</h4>
+              <h4 class="service-heading">Misionam</h4>
               <p class="text-muted">Și sufletul are nevoie de hrană, dăruim mai mult decât o pâine. Dăruim Pâinea Vieții. Iisus i-a zis: „Este scris: ‘Omul nu trăieşte numai cu pâine, ci cu orice cuvânt care iese din gura lui Dumnezeu.” (Matei 4:4)</p>
             </div>
           </div>
@@ -193,18 +193,18 @@
 
           <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 order-sm-1 portfolio-item">
-                <a href="https://forms.gle/DziwF591zWcnyJxq7">
-            <img class="img-fluid" src="{{ URL::asset('img/projects/sos/1.png') }}"alt="">
-</a>
+              <a href="https://forms.gle/DziwF591zWcnyJxq7">
+                <img class="img-fluid" src="{{ URL::asset('img/projects/sos/1.png') }}"alt="">
+              </a>
               <div class="col-lg-6 video">
               <iframe src="https://www.youtube.com/embed/oDBHAfwbL08"></iframe>
             </div>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 order-sm-1 portfolio-item">
-            <a href="https://forms.gle/oDBHAfwbL08">
-            <img class="img-fluid" src="{{ URL::asset('img/projects/sos/2.jpg') }}"alt="">
-</a>
+              <a href="https://forms.gle/Xa98QUv2k6eQKBpy8">
+                <img class="img-fluid" src="{{ URL::asset('img/projects/sos/2.jpg') }}"alt="">
+              </a>
               <div class="col-lg-6 video">
               <iframe src="https://www.youtube.com/embed/L7z3hE_T71s"></iframe>
             </div>
@@ -215,7 +215,7 @@
             <img class="img-fluid" src="{{ URL::asset('img/projects/sos/3.png') }}"alt="">
             </a>                          
               <div class="col-lg-6 video">
-              <iframe src="https://www.youtube.com/embed/thQ7QIZp7Dg"></iframe>
+              <iframe src="https://www.youtube.com/embed/oDBHAfwbL08"></iframe>
             </div>
             </div>
           </div>
