@@ -389,6 +389,7 @@ header.masthead .intro-text .intro-heading {
   position: relative;
   padding: 0;
   list-style: none;
+  padding-bottom: 100px;
 }
 
 .timeline:before {
@@ -979,15 +980,6 @@ ul.archive {
   padding-top: 130px;
 }
 
-#team {
-  background: url("../img/team.jpeg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 1000px;
-}
-
 .sos-project img {
   max-width: 100%;
 }
@@ -999,6 +991,24 @@ ul.archive {
 .video {
   text-align: center;
   padding-bottom: 20px;
+}
+
+#team {
+  background: url("../img/team.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+
+.mobile-team {
+  display: none;
+  margin-bottom: -1px;
+}
+
+.mobile-team img {
+  width: 100%;
 }
 
 @media screen and (max-width: 1400px) {
@@ -1082,7 +1092,7 @@ ul.archive {
 
   #mainNav {
     background-color: #212529;
-  } 
+  }
 }
 
 /* 
@@ -1102,4 +1112,22 @@ ul.archive {
   #mainNav {
     background-color: #212529;
   } 
+
+  #team {
+    display: none;
+  }
+
+  .mobile-team {
+    display: block;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  #team {
+    display: none;
+  }
+
+  .mobile-team {
+    display: block;
+  }
 }

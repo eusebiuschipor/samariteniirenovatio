@@ -370,7 +370,10 @@
         </div>
       </section>
 
-      <section id="team">
+      <section id="team"></section>
+
+      <section class="mobile-team">
+        <img src="{{ URL::asset('img/team.jpeg') }}" />
       </section>
 
       <!-- Contact -->
