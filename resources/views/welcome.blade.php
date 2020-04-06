@@ -20,11 +20,17 @@
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+       <!-- Sovy Cookie Consent Manager footer code -->
+       <link rel="stylesheet" id="sovystyle-consentManager" href="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.css" type="text/css" media="all"><script type="text/javascript" id="sovyscript-consentManager" async defer src="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.js"></script>
 
       <!-- Custom styles for this template -->
       <link href="{{ URL::asset('css/agency.css') }}" rel="stylesheet">
     </head>
     <body id="page-top">
+
+      <div class="se-pre-con">
+        <div id="loading"></div>
+      </div>
 
       <!-- The Modal -->
       <div id="myModal" class="modal">
@@ -45,11 +51,11 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-          <a href="/"><img class="logo" src="{{ URL::asset('img/logo.png') }}" alt=""></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Meniu
             <i class="fas fa-bars"></i>
           </button>
+          <a href="/"><img class="logo" src="{{ URL::asset('img/logo.png') }}" alt=""></a>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
               <li class="nav-item">
@@ -206,7 +212,7 @@
 
             <div class="col-lg-4 col-md-6 col-sm-12 order-sm-1 portfolio-item">
               <a href="https://forms.gle/Xa98QUv2k6eQKBpy8">
-                <img class="img-fluid" src="{{ URL::asset('img/projects/sos/2.jpg') }}"alt="">
+                <img class="img-fluid" src="{{ URL::asset('img/projects/sos/2.png') }}"alt="">
               </a>
               <div class="col-lg-6 video">
               <iframe src="https://www.youtube.com/embed/L7z3hE_T71s"></iframe>
@@ -218,13 +224,14 @@
             <img class="img-fluid" src="{{ URL::asset('img/projects/sos/3.png') }}"alt="">
             </a>                          
               <div class="col-lg-6 video">
-              <iframe src="https://www.youtube.com/embed/oDBHAfwbL08"></iframe>
+              <iframe src="https://www.youtube.com/embed/dA4zCJjxqtM"></iframe>
             </div>
             </div>
           </div>
         </div>
         <hr>
       </section>
+      
       <!-- Portfolio Grid -->
       <section class="projects bg-texture" id="portfolio">
         <div class="container">
@@ -240,10 +247,16 @@
               <?php 
                 $classDescription = "";
                 $classImage = "";
+                $classH4 = "mg-md text-lg-right";
+                $classP = "mg-md text-lg-right";
+                $classButton = "float-lg-right";
 
                 if ($projectIndex %2 == 0) {
                   $classDescription = "order-sm-12";
                   $classImage = "order-sm-1";
+                  $classH4 = "";
+                  $classP = "";
+                  $classButton = "";
                 }
 
                 $projectIndex++;
@@ -251,12 +264,12 @@
 
               <div class="row project">
                 <div class="col-lg-8 col-md-6 col-sm-12 align-self-center {{ $classDescription }}">
-                  <h4>{{ $project->title }}</h4>
-                  <p>{{ $project->description }}</p>
+                  <h4 class="{{ $classH4 }}">{{ $project->title }}</h4>
+                  <p class="{{ $classP }}">{{ $project->description }}</p>
                   <?php
                     if ($project->video != "") {
                   ?>
-                      <input type="button" class="align-self-center btn btn-primary show-video" 
+                      <input type="button" class="align-self-center btn btn-primary show-video {{ $classButton }}" 
                              onclick="location.href='{{ $project->video }}';" value="Vizionează videoclip" />
                   <?php
                     }
@@ -419,7 +432,7 @@
             <div class="col-md-4">
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="http://www.facebook.com/misiunearenovatio">
+                  <a href="https://www.facebook.com/samariteniirenovatio">
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
@@ -627,12 +640,9 @@
           </div>
         </div>
 
-        <a href="#policy" onclick="showlightbox()">Manage Cookies</a>
-        
-      </div>
+        <!-- <a href="#policy" onclick="showlightbox()">Manage Cookies</a> -->
 
-      <!-- Sovy Cookie Consent Manager footer code -->
-      <link rel="stylesheet" id="sovystyle-consentManager" href="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.css" type="text/css" media="all"><script type="text/javascript" id="sovyscript-consentManager" async defer src="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.js"></script>
+      </div>
 
       <!-- Bootstrap core JavaScript -->
       <script src="{{ URL::asset('vendor/jquery/jquery.min.js') }}"></script>
@@ -648,6 +658,16 @@
       <!-- Custom scripts for this template -->
       <script src="{{ URL::asset('js/agency.min.js') }}"></script>
       <script src="{{ URL::asset('js/photo-gallery.js') }}"></script>
+
+      <script>
+        function hideLoader() {
+          $('.se-pre-con').hide();
+        }
+
+        $(window).on("load", function() {
+          hideLoader();
+        });
+      </script>
 
     </body>
 </html>

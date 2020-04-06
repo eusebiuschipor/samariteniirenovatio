@@ -88,6 +88,11 @@ var navbarCollapse = function() {
 // Collapse now if page is not at top
 navbarCollapse();
 
+$(window).load(function() {
+  // Animate loader off screen
+  $(".se-pre-con").hide();
+});
+
 // When the user clicks anywhere outside of the modal, close it
 // $(document).click(function(e) {
 //     // if (!$(e.target).closest('#myModal').length) {

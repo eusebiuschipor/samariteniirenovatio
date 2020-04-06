@@ -20,6 +20,8 @@
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+      <!-- Sovy Cookie Consent Manager footer code -->
+      <link rel="stylesheet" id="sovystyle-consentManager" href="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.css" type="text/css" media="all"><script type="text/javascript" id="sovyscript-consentManager" async defer src="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.js"></script>
 
       <!-- Custom styles for this template -->
       <link href="{{ URL::asset('css/agency.css') }}" rel="stylesheet">
@@ -51,11 +53,11 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top photo-gallery" id="mainNav">
         <div class="container">
-          <a href="/"><img class="logo" src="{{ URL::asset('img/logo.png') }}" alt=""></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Meniu
             <i class="fas fa-bars"></i>
           </button>
+          <a href="/"><img class="logo" src="{{ URL::asset('img/logo.png') }}" alt=""></a>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
               <li class="nav-item">
@@ -96,10 +98,7 @@
         @endforeach
       </div>
 
-      <a href="#policy" onclick="showlightbox()">Manage Cookies</a>
-
-      <!-- Sovy Cookie Consent Manager footer code -->
-      <link rel="stylesheet" id="sovystyle-consentManager" href="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.css" type="text/css" media="all"><script type="text/javascript" id="sovyscript-consentManager" async defer src="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.js"></script>
+      <!-- <a href="#policy" onclick="showlightbox()">Manage Cookies</a> -->
 
       <!-- Bootstrap core JavaScript -->
       <script src="{{ URL::asset('vendor/jquery/jquery.min.js') }}"></script>
