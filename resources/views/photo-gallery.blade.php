@@ -8,6 +8,9 @@
 
       <title>Samaritenii Renovatio</title>
 
+      <!-- Sovy Cookie Consent Manager header code -->
+      <script type="text/javascript">var per = [],func = [], adv = [];</script>
+
       <!-- Bootstrap core CSS -->
       <link href="{{ URL::asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -92,6 +95,11 @@
                data-image-load="{{ URL::asset('img/projects-gallery/'.$galleryName.'/'.$image) }}">
         @endforeach
       </div>
+
+      <a href="#policy" onclick="showlightbox()">Manage Cookies</a>
+
+      <!-- Sovy Cookie Consent Manager footer code -->
+      <link rel="stylesheet" id="sovystyle-consentManager" href="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.css" type="text/css" media="all"><script type="text/javascript" id="sovyscript-consentManager" async defer src="https://cdn.sovy.com/consents/52e6e9a5-512e-451b-b9b9-4d500ebf7d72/consentmanager.min.js"></script>
 
       <!-- Bootstrap core JavaScript -->
       <script src="{{ URL::asset('vendor/jquery/jquery.min.js') }}"></script>
