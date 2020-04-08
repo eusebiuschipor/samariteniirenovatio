@@ -98,6 +98,31 @@
         @endforeach
       </div>
 
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <span class="copyright">Copyright &copy; 2020 | Samaritenii Renovatio</span>
+            </div>
+            <div class="col-md-4">
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/samariteniirenovatio">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="http://www.instagram.com/samariteniirenovatio">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
       <!-- <a href="#policy" onclick="showlightbox()">Manage Cookies</a> -->
 
       <!-- Bootstrap core JavaScript -->

@@ -1032,6 +1032,14 @@ ul.archive {
   margin-top:-40px;
 }
 
+.contact {
+  padding-top: 150px;
+}
+
+.send-button {
+  margin: 14px;
+}
+
 @media screen and (max-width: 1400px) {
   #myModal {
     width: 100%;
@@ -1082,6 +1090,14 @@ ul.archive {
   .gallery-container {
     padding-top: 0px;
   }
+
+  .contact {
+    padding-top: 0px;
+  }
+
+  .send-button {
+    margin: 0;
+  }
 }
 
 /* 
@@ -1121,6 +1137,14 @@ ul.archive {
 
   .gallery-container {
     padding-top: 0px;
+  }
+
+  .contact {
+    padding-top: 0px;
+  }
+
+  .send-button {
+    margin: 0;
   }
 }
 
@@ -1162,6 +1186,14 @@ ul.archive {
   .gallery-container {
     padding-top: 0px;
   }
+
+  .contact {
+    padding-top: 0px;
+  }
+
+  .send-button {
+    margin: 0;
+  }
 }
 
 /* 
@@ -1197,6 +1229,14 @@ ul.archive {
   .gallery-container {
     padding-top: 0px;
   }
+
+  .contact {
+    padding-top: 0px;
+  }
+
+  .send-button {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -1214,5 +1254,13 @@ ul.archive {
 
   .gallery-container {
     padding-top: 0px;
+  }
+
+  .contact {
+    padding-top: 0px;
+  }
+
+  .send-button {
+    margin: 0;
   }
 }
