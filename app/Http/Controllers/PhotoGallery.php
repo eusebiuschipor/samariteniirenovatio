@@ -70,7 +70,7 @@ class PhotoGallery extends Controller
       }
     }
 
-    // create thumb
+    //create thumb
     // foreach($images as $image) {
     //   $src = public_path() . '/img/projects-gallery/' . $galleryName . '/' . $image;
     //   $dest = public_path() . '/img/projects-gallery/' . $galleryName . '/thumbs/thumb_' . $image;
