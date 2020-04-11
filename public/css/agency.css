@@ -1051,6 +1051,16 @@ ul.contact-page {
   list-style: none;
 }
 
+.contact-line {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.iban-section {
+  float: left;
+}
+
 @media screen and (max-width: 1400px) {
   #myModal {
     width: 100%;
