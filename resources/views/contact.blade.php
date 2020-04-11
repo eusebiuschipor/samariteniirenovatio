@@ -83,10 +83,26 @@
         <section class="mb-4 contact">
 
             <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Contacteaza-ne</h2>
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Implică-te</h2>
             <!--Section description-->
             <p class="text-center w-responsive mx-auto mb-5">
-                Ai vreo intrebare? Nu ezita sa ne contactezi. Echipa noastra iti va raspunde in cel mai scurt timp.
+                Un gest mic poate face o mare diferenţă!
+            </p>
+
+            <ul class="text-center w-responsive mx-auto mb-5 contact-page">
+                <li>Asociatia Creştină Renovaţio, Str. Izbiceni nr. 5, sector 1, Bucureşti, Cod fiscal 38766448</li>
+                <li><strong>Conturi:</strong></li>
+                <li>RO60RNCB006515752873001 - valută RON</li>
+                <li>RO33RNCB006515752873002 - valută EUR</li>
+                <li>RO06RNCB0065157528730003 - valută USD</li>
+                <li>Sucursala Bucureştii Noi, Bucureşti B-dul Bucureştii Noi nr. 170, Sector 1, cod poştal 012369, Bucureşti Cod Swift RNCBROBU</li>
+            </ul>
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contactează-ne</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">
+                Ai vreo intrebare? Nu ezita să ne contactezi. Echipa noastră iţi va raspunde în cel mai scurt timp.
             </p>
 
             <div class="row">

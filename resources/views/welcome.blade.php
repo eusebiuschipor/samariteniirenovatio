@@ -396,19 +396,13 @@
       <section id="contact">
         <div class="container">
           <div class="row">
-              <div class="col-lg-6 send-message text-center">
-                <div id="success"></div>
-                <a href="http://www.sos.misiunearenovatio.ro/">
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" name="submit" type="submit">Semnaleaza o nevoie</button>
-                </a>
-              </div>
-              <div class="col-lg-6 send-message text-center">
+              <div class="col-lg-12 send-message text-center">
                 <div id="success"></div>
                 <a href="/contact">
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" name="submit" type="submit">Contacteaza-ne</button>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" name="submit" type="submit">Implică-te</button>
                 </a>
               </div>
-              <h3 class="section-subheading contact-footer" style="text-align: center; width: 100%; color: white; margin-top: 60px; font-size: 40px; margin-bottom: 0px;">In cel mai scurt timp vei primi un raspuns</h3>
+              <h3 class="contact-footer">Un gest mic poate face o mare diferenţă!</h3>
           </div>
         </div>
       </section>
@@ -472,9 +466,18 @@
       <script src="{{ URL::asset('js/photo-gallery.js') }}"></script>
 
       <script>
+        var loader = true;
+
         function hideLoader() {
+          loader = false;
           $('.se-pre-con').hide();
         }
+
+        setTimeout(function() {
+          if (loader) {
+            hideLoader();
+          }
+        }, 5000);
 
         $(window).on("load", function() {
           hideLoader();
