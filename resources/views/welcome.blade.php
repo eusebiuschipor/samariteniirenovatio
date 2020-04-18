@@ -128,7 +128,7 @@
           <div class="row">
             <div class="col-lg-12 text-center">
               <h2 class="section-heading text-uppercase">Misiunea noastră</h2>
-              <h3 class="section-subheading text-muted motto">Preţuim pe semenii noştri, dar mai ales pe cei aflaţi in nevoi!</h3>
+              <h3 class="section-subheading text-muted motto">PREȚUIM PE TOȚI OAMENII, DAR MAI ALES PE CEI AFLAȚI IN NEVOI</h3>
             </div>
           </div>
           <div class="row text-center">
@@ -172,7 +172,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-             <h1>PROIECT ÎN DERULARE</h1>
+             <h1>Proiect special</h1>
               <h2 class="section-heading text-uppercase">SOS SAMARITENII</h2>
             </div>
           </div>
@@ -190,12 +190,11 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">
               <p>
-                Țara noastră este greu încercată în perioadă această dificilă prin care trecem, avem în mijlocul nostru multe persoane care nu sunt pregătite să poata depăși 
-                singure momente ca acestea. Prin campania <strong>SOS SAMARITENII</strong> ne-am propus să sprijinim în limita puterilor și a resurselor noastre o parte din nevoile acestei 
-                situații de criză prin care trecem. Suntem peste 100 de tineri pregătiți aproape în toate zonele Bucureștiului, gata să intervenim în proximitate pentru orice nevoie.
-                Dacă dorești să intri în posesia unui astfel de kit, te rugăm să alegi în funcție de nevoia ta unul din pachetele puse la dispoziția dumneavaostră gratuit.
-                Din cauza stocului limitat, nu putem livra la o adresă doar un singur kit.
-                Dumnezeu să păzească țara noastră și să binecuvânteze orice casă cu protecție Divină.
+                Țara noastră este greu încercată în această perioadă dificilă prin care trecem.
+                Avem în mijlocul nostru persoane care nu sunt pregatite să poată depăși singure momente ca acestea.
+                Prin Campania SOS SAMARITENII ne-am propus să sprijinim situațiile critice prin care trec mulți semeni de-ai noștri. Modalitățile de sprijin le regăsiți detaliate mai jos.
+                Suntem peste 120 de tineri pregătiți, grupați în toate sectoarele Bucureștiul și gata să intervenim în proximitate pentru orice nevoie și solicitare.
+                Dumnezeu să păzească țara noastră și să lase protecția Sa divină peste orice casă.
               </p>
             </div>
           </div>
@@ -231,13 +230,72 @@
         </div>
         <hr>
       </section>
+
+      <section class="projects bg-texture" id="portfolio">
+        <div class="container">
+          <div class="row row-sos-description">
+            <div class="col-lg-12 text-center">
+             <h1>CREDINȚĂ| UNITATE | SOLIDARITATE</h1>
+             <h2 class="section-heading text-uppercase">Cum ajutăm?</h2>
+            </div>
+          </div>
+          <div class="row boxes-content-row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="box-text-content">
+                <h4 class="title">1. Pachete Alimentare</h4>
+                <div class="content">
+                  Distribuim gratuit pachete alimentare persoanelor în vârstă, văduvelor, familiilor cu mulți copii, orfanilor, persoanlor aflate în izolare la domiciliu sau în carantină.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="box-text-content">
+                <h4 class="title">2. Kituri de protectie</h4>
+                <div class="content">
+                  Distribuim gratuit kituri de protecție menite să limiteze și să oprească răspândirea virusului. 
+                  Kitul este compus dintr-un set de mănusi și o mască. De asemenea, alături de acestea veți primi o Biblie - Noul Testament dar și un pliant informativ. 
+                  Momentan, punem la dispoziția dumneavostră 2000 de kituri de protecție . Acestea sunt valabile pentru toate categoriile de vârstă.
+                  Momentan, stocul kiturilor de protecție este limitat. Prin urmare nu putem livra decât un singur kit / adresă. 
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="box-text-content">
+                <h4 class="title">3. Dezinfectant portabil</h4>
+                <div class="content">
+                  Distribuim gratuit kituri dezinfectante persoanelor în nevoie.
+                  Kitul dezinfectant este format din: pulverizator cu spirt de 100 ml, un pachet de șervețele umede antibacteriene, un săpun și un set de batiste nazale.  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row boxes-content-row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="box-text-content">
+                <h4 class="title">4. Gătim și Distribuim</h4>
+                <div class="content">
+                  Avem la dispoziție 40 de bucătării organizate în fiecare sector al Bucureștiului și în județul Ilfov. Astfel, gătim și distribuim regulat hrană caldă și proaspătă persoanelor imobilizate, invalide sau cu grad mare de handicap. 
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="box-text-content">
+                <h4 class="title">5. Alături de prima linie</h4>
+                <div class="content">
+                  Am încheiat o colaborare cu un restaurant din București, restaurant prin intermediul căruia vom pune la dispoziție mâncare caldă, în regim de catering, cadrelor medicale din București ce luptă în prima linie împotriva COVID 19.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
       <!-- Portfolio Grid -->
       <section class="projects bg-texture" id="portfolio">
         <div class="container">
-          <div class="row">
+          <div class="row row-projects">
             <div class="col-lg-12 text-center">
-             <h1>PROIECTE DESFĂȘURATE</h1>
+             <h1>PROIECTE ÎN DERULARE:</h1>
             </div>
 
             <!-- Main container -->
@@ -317,9 +375,7 @@
                     </div>
                     <div class="timeline-body">
                       <p class="text-muted">
-                        Noi credem şi promovăm valorile creştine, valori care de peste 2000 de ani au impactat şi schimbat multe vieţi! A îmbogăţit şi echilibrat mentalitatea multor oameni.
-                        Indiferent de denominaţiunea religioasă. Au fost un etalon folosit pentru legile morale şi conduita sănătoasă unei familii sau a unei societăţi, folosite de multe ori şi in justiţie,
-                        atât timp cât s-au respectat aceste principii şi valori creştine.
+                        Noi credem şi promovăm valorile creştine, valori care de peste 2000 de ani au impactat şi schimbat multe vieţi! Au îmbogăţit şi echilibrat mentalitatea multor oameni, indiferent de denominaţiunea religioasă din care fac parte. Aceste valori au fost un etalon folosit pentru legile morale şi conduita sănătoasă a unei familii sau a unei societăţi. Sunt folosite ca un reper de multe ori in justiţie. Atât timp cât s-au respectat aceste principii şi valori creştine, ele au adus beneficii personale si comunitare. 
                       </p>
                     </div>
                   </div>
@@ -334,8 +390,8 @@
                     </div>
                     <div class="timeline-body">
                       <p class="text-muted">
-                        Ne propunem să putem fi o mână întinsă constant acestor persoane care vieţuiesc alături de noi, indiferent de resursele financiare, noi întotdeauna putem găsi o inimă care
-                        are nevoie de căldură sufletească, şi întotdeauna vom găsi o mână care să fie apucată şi ridicată!
+                        Noi ne-am propus să putem fi permantent o mână întinsă semenilor noștri ce sunt în lipsuri sau nevoi. 
+                        Indiferent de resursele financiare pe care le avem, întotdeauna putem găsi o inimă care are nevoie de căldură sufletească mai ales, întotdeauna vom găsi o inimă care trebuie să fie luată, ridicată, îmbărbătată.
                       </p>
                     </div>
                   </div>
@@ -350,8 +406,8 @@
                     </div>
                     <div class="timeline-body">
                       <p class="text-muted">
-                        Fiecare în parte ne-am unit forţele şi resursele proprii pentru ca proiectele să poată fi realizate, dar suntem conştienţi că mai sunt multe inimi de SAMARITEAN care simt la fel
-                        şi se pot uni împreună cu noi şi astfel susţinerea noastră poate ajunge la mai mulţi semeni în nevoi.
+                        Fiecare dintre noi  în parte ne-am unit forţele şi resursele proprii pentru ca aceste proiecte să poată fi realizate.
+                        Suntem conştienţi că mai sunt multe inimi de SAMARITEANI care simt la fel ca noi şi care se pot uni împreună cu noi şi astfel, împreună să putem ajunge la mai mulţi semeni  de-ai noștri care sunt în nevoi. 
                       </p>
                     </div>
                   </div>
@@ -366,9 +422,9 @@
                     </div>
                     <div class="timeline-body">
                       <p class="text-muted">
-                        Numai cei care s-au aplecat să simtă cu aceşti oameni într-o formă sau alta pot înţelege beneficiul prin împlinirea, bucuria şi emoţiile trăite din această implicare.
-                        Este mult mai ferice să dai decât să primeşti. Eclesiastul 11:1: "Aruncă-ţi pâinea pe ape şi, după multă vreme, o vei găsi iarăşi! Orice lucru pe care tu îl faci mai devreme sau mai târziu
-                        te va ajunge, fie bine fie rău!"
+                        Numai cei care s-au aplecat să simtă nevoia acestor personae nevoiașe pot înţelege beneficiul sufletesc rezultat din implicarea lor. 
+                        Bucuria şi emoţiile trăite din această implicare sunt mult peste cuvintele noastre pentru a putea fi exprimate. 
+                        Este mult mai ferice să dai decât să primeşti. În Biblie, la Eclesiastul 11:1, Dumnezeu spune: " Aruncă-ţi pâinea pe ape şi, după multă vreme, o vei găsi iarăşi!" Orice lucru pe care tu îl faci mai devreme sau mai târziu te va ajunge, fie bine fie rău! Alege binele!
                       </p>
                     </div>
                   </div>
@@ -441,6 +497,11 @@
                   </a>
                 </li>
               </ul>
+            </div>
+            <div class="col-md-4">
+              <a class="the-confidentiality-policy-link" href="/politica-de-confidentialitate">
+                Politica de confidenţialitate
+              </a>
             </div>
           </div>
         </div>

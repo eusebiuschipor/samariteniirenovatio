@@ -1061,6 +1061,67 @@ ul.contact-page {
   float: left;
 }
 
+.special-project {
+  font-size: 20px;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+.box-text-content {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 16px;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.box-text-content .title {
+  float: left;
+  padding-top: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+}
+
+.boxes-content-row {
+  margin-top: 0px;
+}
+
+.row-projects {
+  margin-top: 120px;
+}
+
+.row-sos-description {
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+.confidentiality-text {
+  margin-top: 130px;
+}
+
+p {
+  width: 100%;
+}
+
+.the-confidentiality-policy-link {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 1400px) {
   #myModal {
     width: 100%;
@@ -1075,6 +1136,14 @@ ul.contact-page {
   .modal {
     padding-top: 130px;
   }
+
+  footer .container .row .col-md-4 {
+    padding: 20px;
+  }
+
+  .confidentiality-text {
+    margin-top: 0px;
+  }  
 }
 
 /* 
@@ -1119,6 +1188,14 @@ ul.contact-page {
   .send-button {
     margin: 0;
   }
+
+  footer .container .row .col-md-4 {
+    padding: 20px;
+  }
+
+  .confidentiality-text {
+    margin-top: 0px;
+  }  
 }
 
 /* 
@@ -1167,6 +1244,14 @@ ul.contact-page {
   .send-button {
     margin: 0;
   }
+
+  footer .container .row .col-md-4 {
+    padding: 20px;
+  }
+
+  .confidentiality-text {
+    margin-top: 0px;
+  }  
 }
 
 /* 
@@ -1215,6 +1300,14 @@ ul.contact-page {
   .send-button {
     margin: 0;
   }
+
+  footer .container .row .col-md-4 {
+    padding: 20px;
+  }
+
+  .confidentiality-text {
+    margin-top: 0px;
+  }  
 }
 
 /* 
@@ -1258,6 +1351,14 @@ ul.contact-page {
   .send-button {
     margin: 0;
   }
+
+  footer .container .row .col-md-4 {
+    padding: 20px;
+  }
+
+  .confidentiality-text {
+    margin-top: 0px;
+  }  
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -1284,4 +1385,12 @@ ul.contact-page {
   .send-button {
     margin: 0;
   }
+
+  footer .container .row .col-md-4 {
+    padding: 20px;
+  }
+
+  .confidentiality-text {
+    margin-top: 0px;
+  }  
 }
