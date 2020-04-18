@@ -119,6 +119,11 @@
                 </li>
               </ul>
             </div>
+            <div class="col-md-4">
+              <a class="the-confidentiality-policy-link" href="/politica-de-confidentialitate">
+                Politica de confidenţialitate
+              </a>
+            </div>
           </div>
         </div>
       </footer>

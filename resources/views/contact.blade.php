@@ -95,6 +95,7 @@
                 <span class="contact-line">RO60RNCB006515752873001 - valută RON</span>
                 <span class="contact-line">RO33RNCB006515752873002 - valută EUR</span>
                 <span class="contact-line">RO06RNCB0065157528730003 - valută USD</span>
+                <span class="contact-line red">Va rugam sa treceti la detalii plata: "Pentru Samaritenii"</span>
                 <span class="contact-line">Sucursala Bucureştii Noi, Bucureşti B-dul Bucureştii Noi nr. 170, Sector 1, cod poştal 012369, Bucureşti Cod Swift RNCBROBU</span>
             </div>
 
@@ -181,7 +182,7 @@
                         </li>
 
                         <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                            <p>+40 766 893 416</p>
+                            <p>+40 761 067 822</p>
                         </li>
 
                         <li><i class="fas fa-envelope mt-4 fa-2x"></i>
@@ -221,21 +222,26 @@
             <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                <span class="copyright">Copyright &copy; 2020 | Samaritenii Renovatio</span>
+                    <span class="copyright">Copyright &copy; 2020 | Samaritenii Renovatio</span>
                 </div>
                 <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <li class="list-inline-item">
-                    <a href="https://www.facebook.com/samariteniirenovatio">
-                        <i class="fab fa-facebook-f"></i>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                        <a href="https://www.facebook.com/samariteniirenovatio">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a href="http://www.instagram.com/samariteniirenovatio">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <a class="the-confidentiality-policy-link" href="/politica-de-confidentialitate">
+                        Politica de confidenţialitate
                     </a>
-                    </li>
-                    <li class="list-inline-item">
-                    <a href="http://www.instagram.com/samariteniirenovatio">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    </li>
-                </ul>
                 </div>
             </div>
             </div>

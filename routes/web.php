@@ -18,4 +18,6 @@
 Route::get('/', 'HomePage@show');
 Route::get('photo-gallery/{galleryName}/{numberOfPhotos?}', 'PhotoGallery@show');
 Route::get('contact', 'ContactController@show');
+Route::get('politica-de-confidentialitate', 'GdprController@showTheConfidentialityPolicy');
 Route::post('insert','MessagesController@insert');
+
