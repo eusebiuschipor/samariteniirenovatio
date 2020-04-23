@@ -29,4 +29,16 @@ class GdprController extends Controller
 
         return view('the-general-data-policy', $view);
     }
+
+    /**
+     * Show the contact page
+     *
+     * @return View
+     */
+    public function showTermsAndConditions()
+    {
+        $view = [];
+
+        return view('terms-and-conditions', $view);
+    }
 }

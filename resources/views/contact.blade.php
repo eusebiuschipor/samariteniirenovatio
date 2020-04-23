@@ -92,10 +92,10 @@
             <div class="text-center w-responsive mx-auto mb-5 iban-section">
                 <span class="contact-line">Asociatia Creştină Renovaţio, Str. Izbiceni nr. 5, sector 1, Bucureşti, Cod fiscal 38766448</span>
                 <span class="contact-line"><strong>Conturi:</strong></span>
-                <span class="contact-line">RO60RNCB006515752873001 - valută RON</span>
-                <span class="contact-line">RO33RNCB006515752873002 - valută EUR</span>
+                <span class="contact-line">RO60RNCB0065157528730001 - valută RON</span>
+                <span class="contact-line">RO33RNCB0065157528730002 - valută EUR</span>
                 <span class="contact-line">RO06RNCB0065157528730003 - valută USD</span>
-                <span class="contact-line red">Va rugam sa treceti la detalii plata: "Pentru Samaritenii"</span>
+                <span class="contact-line red"><strong>Va rugam sa treceti la detalii plata: "Pentru Samaritenii"</strong></span>
                 <span class="contact-line">Sucursala Bucureştii Noi, Bucureşti B-dul Bucureştii Noi nr. 170, Sector 1, cod poştal 012369, Bucureşti Cod Swift RNCBROBU</span>
             </div>
 
@@ -178,7 +178,7 @@
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p>Bucuresti, Romania</p>
+                            <p>București, Romania</p>
                         </li>
 
                         <li><i class="fas fa-phone mt-4 fa-2x"></i>
@@ -261,6 +261,9 @@
                   <li>
                     <a href="/politica-generala-privind-protectia-datelor-cu-caracter-personal">Politica generală privind protecţia datelor cu caracter personal</a>
                   </li>
+                  <li>
+                    <a href="/termeni-si-conditii">Termeni şi condiţii</a>
+                  </li>
                 </ul>
 
               </div>
@@ -280,6 +283,7 @@
                     <a target="_blank" href="https://misiunearenovatio.ro/">Misiunea Renovaţio</a>
                   </li>
                 </ul>
+
 
               </div>
               <!-- Grid column -->

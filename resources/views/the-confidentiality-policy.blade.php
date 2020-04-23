@@ -356,6 +356,9 @@
                   <li>
                     <a href="/politica-generala-privind-protectia-datelor-cu-caracter-personal">Politica generală privind protecţia datelor cu caracter personal</a>
                   </li>
+                  <li>
+                    <a href="/termeni-si-conditii">Termeni şi condiţii</a>
+                  </li>
                 </ul>
 
               </div>
