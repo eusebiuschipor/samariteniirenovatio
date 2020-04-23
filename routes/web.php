@@ -20,5 +20,6 @@ Route::get('photo-gallery/{galleryName}/{numberOfPhotos?}', 'PhotoGallery@show')
 Route::get('contact', 'ContactController@show');
 Route::get('politica-de-confidentialitate', 'GdprController@showTheConfidentialityPolicy');
 Route::get('politica-generala-privind-protectia-datelor-cu-caracter-personal', 'GdprController@showTheGeneralDataPolicy');
+Route::get('termeni-si-conditii', 'GdprController@showTermsAndConditions');
 Route::post('insert','MessagesController@insert');
 
