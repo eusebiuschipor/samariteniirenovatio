@@ -23,3 +23,6 @@ Route::get('politica-generala-privind-protectia-datelor-cu-caracter-personal', '
 Route::get('termeni-si-conditii', 'GdprController@showTermsAndConditions');
 Route::post('insert','MessagesController@insert');
 
+Route::get('sos','SosController@show');
+Route::post('sendSosEmail','SosController@send');
+

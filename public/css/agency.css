@@ -1394,3 +1394,41 @@ p {
     margin-top: 0px;
   }  
 }
+
+
+#sosdiv {
+  background-image: url("../img/home-carousel/9.jpeg");
+  height: 1000px;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.inputTextSos{
+  border: 3px solid #e0e0e0;
+  font-family: Open Sans;
+  font-size: 25px;
+  caret-color : red;
+}
+
+.labelTextSos{
+  font-family: Open Sans;
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+}
+.textareaSos{
+  width  : 90%;
+  border: 3px solid #e0e0e0;
+  font-family: Open Sans;
+  font-size: 25px;
+  caret-color : red;
+}
+
+.noMargin{
+  margin: 0px
+}
+

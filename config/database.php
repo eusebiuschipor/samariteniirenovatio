@@ -79,8 +79,8 @@ return [
         //     'host' => 'localhost',
         //     'port' => env('DB_PORT', '3306'),
         //     'database' => 'schipor_samariteniirenovatio',
-        //     'username' => 'schipor_admin',
-        //     'password' => 'md97jnnj79dmvareza',
+        //     'username' => 'root',
+        //     'password' => 'Classic1997!',
         //     'unix_socket' => env('DB_SOCKET', ''),
         //     'charset' => 'utf8mb4',
         //     'collation' => 'utf8mb4_unicode_ci',
@@ -92,9 +92,9 @@ return [
         // Local
         'mysql' => [
             'driver' => 'mysql',
-            'host' => 'localhost',
+            'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
-            'database' => 'samariteniirenovatio',
+            'database' => 'schipor_samariteniirenovatio',
             'username' => 'root',
             'password' => '',
             'unix_socket' => env('DB_SOCKET', ''),
@@ -103,6 +103,14 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+                        'modes'       => [
+                            'ONLY_FULL_GROUP_BY',
+                            'STRICT_TRANS_TABLES',
+                            'NO_ZERO_IN_DATE',
+                            'NO_ZERO_DATE',
+                            'ERROR_FOR_DIVISION_BY_ZERO',
+                            'NO_ENGINE_SUBSTITUTION',
+                        ],
         ],
 
         'pgsql' => [
