@@ -51,7 +51,7 @@
 
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top photo-gallery" id="mainNav">
-        <div class="container">
+        <div class="container header-menu">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Meniu
             <i class="fas fa-bars"></i>
@@ -59,21 +59,24 @@
         <a href="/"><img class="logo" src="{{ URL::asset('img/logo.png') }}" alt=""></a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#misiune">Misiunea noastră</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#portfolio">Proiecte</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#desprenoi">Cine suntem</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#team">Echipă</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#contact">Implică-te</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/#misiune">Misiunea noastră</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/#portfolio">Proiecte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/#desprenoi">Cine suntem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/#team">Echipă</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/#contact">Implică-te</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/sos">SOS Samaritenii</a>
+                </li>
             </ul>
             </div>
             </div>

@@ -1122,6 +1122,189 @@ p {
   font-weight: bold;
 }
 
+#sosdiv {
+  background-image: url(../img/home-carousel/sos-background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.inputTextSos{
+  border: 5px solid #DCDCDC;
+  font-family: Open Sans;
+  font-size: 30px;
+  caret-color: red;
+  color: red;
+  width: 100%;
+}
+
+.labelTextSos{
+  font-family: Open Sans;
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+.textareaSos{
+  width: 100%;
+  border: 5px solid #DCDCDC;
+  font-family: Open Sans;
+  font-size: 30px;
+  caret-color : red;
+  height: 150px;
+  color: red;
+}
+
+.noMargin{
+  margin: 0px
+}
+
+.sos-form {
+  width: 100%;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+.send-case-button {
+  font-family: Open Sans;
+  margin-left: auto;
+  background-color: red;
+  margin-right: auto;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.send-case-button:hover {
+  opacity: 0.7;
+  cursor: hand;
+}
+
+.sos-form .form-check {
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.form-check-label {
+  font-weight: bold;
+}
+
+.submit {
+  margin-top: 30px;
+}
+
+.sos-form-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Open Sans;
+}
+
+.sos-form-subtitle {
+  text-align: center;
+  font-family: Open Sans;
+  line-height: 1;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.logo-sos {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 150px;
+}
+
+.right-content {
+  width: 80%;
+}
+
+.sos-title-first {
+  font-size: 90px;
+  font-weight: bolder;
+  font-family: Open Sans;
+  text-align: center;
+  color: white;
+}
+
+.sos-subtitle-red-background {
+  background-color: red;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: Open Sans;
+  margin-right: auto;
+  color: white;
+  margin-left: auto;
+  text-align: center;
+  display: table;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: -36px;
+  line-height: 87px;
+}
+
+.low-margin-top {
+  margin-top: -36px;
+}
+
+.sos-small-title {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: Open Sans;
+  text-align: center;
+  color: white;
+}
+
+.low-margin-top-2 {
+  margin-top: -60px;
+}
+
+.low-margin-top-3 {
+  margin-top: -30px;
+}
+
+.high-margin-top {
+  margin-top: 50px;
+}
+
+.sos-small-subtitle {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Open Sans;
+  text-align: center;
+  color: white;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+.header-menu {
+  max-width: 1170px;
+}
+
 @media screen and (max-width: 1400px) {
   #myModal {
     width: 100%;
@@ -1144,6 +1327,60 @@ p {
   .confidentiality-text {
     margin-top: 0px;
   }  
+
+  .sos-title-first {
+    font-size: 45px;
+  }
+
+  .low-margin-top {
+    margin-top: 30px;
+  }
+
+  .sos-small-title {
+    line-height: 63px;
+  }
+
+  .low-margin-top-2 {
+    margin-top: -26px;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .sos-form-title {
+    line-height: 34px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .logo-sos {
+    margin-top: 0;
+  }
+
+  .sos-subtitle-red-background {
+    font-size: 50px;
+    line-height: 74px;
+  }
+
+  .sos-form-title {
+    margin-top: 40px;
+  }
+
+  .submit {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .sos-form-title {
+    margin-top: 310px;
+  }
 }
 
 /* 
@@ -1196,6 +1433,64 @@ p {
   .confidentiality-text {
     margin-top: 0px;
   }  
+
+  .sos-title-first {
+    font-size: 45px;
+  }
+
+  .low-margin-top {
+    margin-top: 30px;
+  }
+
+  .sos-small-title {
+    line-height: 63px;
+  }
+
+  .low-margin-top-2 {
+    margin-top: -26px;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .sos-form-title {
+    line-height: 34px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .logo-sos {
+    margin-top: 0;
+  }
+
+  .sos-subtitle-red-background {
+    font-size: 50px;
+    line-height: 74px;
+  }
+
+  .sos-form-title {
+    margin-top: 40px;
+  }
+
+  .submit {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .sos-form-title {
+    margin-top: 310px;
+  }
+
+  .footer-sos {
+    margin-top: 500px;
+  }
 }
 
 /* 
@@ -1252,6 +1547,64 @@ p {
   .confidentiality-text {
     margin-top: 0px;
   }  
+
+  .sos-title-first {
+    font-size: 45px;
+  }
+
+  .low-margin-top {
+    margin-top: 30px;
+  }
+
+  .sos-small-title {
+    line-height: 63px;
+  }
+
+  .low-margin-top-2 {
+    margin-top: -26px;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .sos-form-title {
+    line-height: 34px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .logo-sos {
+    margin-top: 0;
+  }
+
+  .sos-subtitle-red-background {
+    font-size: 50px;
+    line-height: 74px;
+  }
+
+  .sos-form-title {
+    margin-top: 40px;
+  }
+
+  .submit {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .sos-form-title {
+    margin-top: 310px;
+  }
+
+  .footer-sos {
+    margin-top: 730px;
+  }
 }
 
 /* 
@@ -1307,7 +1660,65 @@ p {
 
   .confidentiality-text {
     margin-top: 0px;
-  }  
+  } 
+  
+  .sos-title-first {
+    font-size: 45px;
+  }
+
+  .low-margin-top {
+    margin-top: 30px;
+  }
+
+  .sos-small-title {
+    line-height: 63px;
+  }
+
+  .low-margin-top-2 {
+    margin-top: -26px;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .sos-form-title {
+    line-height: 34px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .logo-sos {
+    margin-top: 0;
+  }
+
+  .sos-subtitle-red-background {
+    font-size: 50px;
+    line-height: 74px;
+  }
+
+  .sos-form-title {
+    margin-top: 40px;
+  }
+
+  .submit {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .sos-form-title {
+    margin-top: 95px;
+  }
+
+  .footer-sos {
+    margin-top: 730px;
+  }
 }
 
 /* 
@@ -1359,6 +1770,60 @@ p {
   .confidentiality-text {
     margin-top: 0px;
   }  
+
+  .sos-title-first {
+    font-size: 45px;
+  }
+
+  .low-margin-top {
+    margin-top: 30px;
+  }
+
+  .sos-small-title {
+    line-height: 63px;
+  }
+
+  .low-margin-top-2 {
+    margin-top: -26px;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .sos-form-title {
+    line-height: 34px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .logo-sos {
+    margin-top: 0;
+  }
+
+  .sos-subtitle-red-background {
+    font-size: 50px;
+    line-height: 74px;
+  }
+
+  .sos-form-title {
+    margin-top: 40px;
+  }
+
+  .submit {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .footer-sos {
+    margin-top: 730px;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -1393,42 +1858,59 @@ p {
   .confidentiality-text {
     margin-top: 0px;
   }  
-}
 
+  .sos-title-first {
+    font-size: 45px;
+  }
 
-#sosdiv {
-  background-image: url("../img/home-carousel/9.jpeg");
-  height: 1000px;
-}
+  .low-margin-top {
+    margin-top: 30px;
+  }
 
-.vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
-}
+  .sos-small-title {
+    line-height: 63px;
+  }
 
-.inputTextSos{
-  border: 3px solid #e0e0e0;
-  font-family: Open Sans;
-  font-size: 25px;
-  caret-color : red;
-}
+  .low-margin-top-2 {
+    margin-top: -26px;
+  }
 
-.labelTextSos{
-  font-family: Open Sans;
-  font-size: 25px;
-  color: red;
-  font-weight: bold;
-}
-.textareaSos{
-  width  : 90%;
-  border: 3px solid #e0e0e0;
-  font-family: Open Sans;
-  font-size: 25px;
-  caret-color : red;
-}
+  .right-content {
+    width: 100%;
+  }
 
-.noMargin{
-  margin: 0px
+  .sos-form-title {
+    line-height: 34px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .logo-sos {
+    margin-top: 0;
+  }
+
+  .sos-subtitle-red-background {
+    font-size: 50px;
+    line-height: 74px;
+  }
+
+  .sos-form-title {
+    margin-top: 70px;
+  }
+
+  .submit {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .footer-sos {
+    margin-top: 730px;
+  }
 }
 
