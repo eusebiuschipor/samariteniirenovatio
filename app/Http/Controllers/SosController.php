@@ -21,8 +21,7 @@ class SosController extends Controller{
             'description'  => 'required'
         ]);
 
-        // \Mail::to('solicitari.samaritenii@gmail.com')->send(new SosMail($request));
-        \Mail::to('schiporeusebiu@gmail.com')->send(new SosMail($request));
+        \Mail::to('solicitari.samaritenii@gmail.com')->send(new SosMail($request));
         
         return Redirect::back();
     }

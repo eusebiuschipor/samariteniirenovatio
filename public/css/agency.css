@@ -1127,7 +1127,7 @@ p {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 1000px;
+  min-height: 1100px;
 }
 
 .vcenter {
@@ -1901,7 +1901,7 @@ p {
   }
 
   .sos-form-title {
-    margin-top: 70px;
+    margin-top: 120px;
   }
 
   .submit {
