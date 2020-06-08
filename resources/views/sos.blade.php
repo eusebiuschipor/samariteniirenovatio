@@ -118,6 +118,69 @@
             </div>
         </div>
 
+        <section class="projects bg-texture sos-desription-section" id="portfolio">
+            <div class="container">
+                <div class="row row-sos-description">
+                <div class="col-lg-12 text-center">
+                    <h1>CREDINȚĂ | UNITATE | SOLIDARITATE</h1>
+                    <h2 class="section-heading text-uppercase red">Cum ajutăm?</h2>
+                </div>
+                </div>
+                <div class="row boxes-content-row">
+                    <!-- <div class="col-lg-12"> -->
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box-text-content">
+                            <h4 class="title red">1. Alimente neperisabile</h4>
+                            <div class="content">
+                                Distribuim gratuit pachete alimentare neperisabile ( făină, ulei, mălai, paste, pastă de tomate, etc. ) persoanelor în vârstă, văduvelor, familiilor cu 
+                                mulți copii, orfanilor, persoanlor aflate în izolare la domiciliu sau în carantină.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box-text-content">
+                            <h4 class="title red">2. Kituri de protecție</h4>
+                            <div class="content">
+                                Distribuim gratuit kituri de protecție menite să limiteze și să oprească răspândirea virusului. Kitul este compus dintr-un set de mănusi și o mască. De 
+                                asemenea, alături de acestea veți primi o Biblie - Noul Testament dar și un pliant informativ. Acestea sunt valabile pentru toate categoriile de vârstă. 
+                                Momentan, stocul kiturilor de protecție este limitat. Prin urmare nu putem livra decât un singur kit / adresă.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box-text-content">
+                            <h4 class="title red">3. Hrană caldă</h4>
+                            <div class="content">
+                                Distribuim gratuit hrană caldă și proaspătă persoanelor imobilizate, invalide sau cu grad mare de handicap , incapabile fizic în a-și găti personal. 
+                                ( meniuri complete: felul 1 + felul 2 ).  Avem la dispoziție 40 bucătării organizate în fiecare sector al Bucureștiului și în județul Ilfov. 
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                </div>
+                <div class="row boxes-content-row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="box-text-content">
+                    <h4 class="title red">4. Alimente perisabile</h4>
+                    <div class="content">
+                        Distribuim gratuit pachete alimentare perisabile ( lactate, carne, legume, fructi, ouă, etc. ) persoanelor în vârstă, văduvelor, familiilor cu mulți copii, 
+                        orfanilor, persoanlor aflate în izolare la domiciliu sau în carantină. 
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="box-text-content">
+                    <h4 class="title red">5. Kituri de dezinfectare</h4>
+                    <div class="content">
+                        Distribuim gratuit kituri dezinfectante persoanelor în nevoie. Kitul dezinfectant este format din: pulverizator cu spirt de 100 ml, un pachet de șervețele
+                        umede antibacteriene, un săpun și un set de batiste nazale.
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="page-footer font-small pt-4 footer-sos">
             <div class="container">
             <!-- Footer Links -->
