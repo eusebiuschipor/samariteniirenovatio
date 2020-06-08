@@ -13,7 +13,7 @@ class SosController extends Controller{
         return view('sos');
     }
 
-    public function send(Request $request){
+    public function send(Request $request) {
 
          $this->validate($request, [
             'name'  =>  'required',

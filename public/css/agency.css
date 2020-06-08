@@ -1305,6 +1305,14 @@ p {
   max-width: 1170px;
 }
 
+.red {
+  color: red !important;
+}
+
+.sos-desription-section {
+  padding-bottom: 100px;
+}
+
 @media screen and (max-width: 1400px) {
   #myModal {
     width: 100%;
@@ -1485,11 +1493,7 @@ p {
   }
 
   .sos-form-title {
-    margin-top: 310px;
-  }
-
-  .footer-sos {
-    margin-top: 500px;
+    margin-top: 400px;
   }
 }
 
@@ -1602,8 +1606,8 @@ p {
     margin-top: 310px;
   }
 
-  .footer-sos {
-    margin-top: 730px;
+  .sos-desription-section {
+    margin-top: 900px;
   }
 }
 
@@ -1612,7 +1616,7 @@ p {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .navbar.fixed-top {
     position: static;
   }
@@ -1713,11 +1717,11 @@ p {
   }
 
   .sos-form-title {
-    margin-top: 95px;
+    margin-top: 500px;
   }
 
-  .footer-sos {
-    margin-top: 730px;
+  .sos-desription-section {
+    margin-top: 900px;
   }
 }
 
@@ -1821,8 +1825,8 @@ p {
     margin-bottom: 60px;
   }
 
-  .footer-sos {
-    margin-top: 730px;
+  .sos-desription-section {
+    margin-top: 900px;
   }
 }
 
@@ -1901,7 +1905,7 @@ p {
   }
 
   .sos-form-title {
-    margin-top: 120px;
+    margin-top: 200px;
   }
 
   .submit {
@@ -1909,8 +1913,8 @@ p {
     margin-bottom: 60px;
   }
 
-  .footer-sos {
-    margin-top: 730px;
+  .sos-desription-section {
+    margin-top: 900px;
   }
 }
 
