@@ -87,13 +87,7 @@
         <div id="loading"></div>
       </div>
 
-      <!-- <ul class="archive">
-          @foreach($directories as $directory)
-            <li>{{$directory}}</li>
-          @endforeach
-      </ul> -->
-
-      <div class="gallery-container">
+      <div class="gallery-container" id="gallery-container">
         @foreach($images as $image)
           <img src="{{ URL::asset('img/projects-gallery/'.$galleryName.'/thumbs/thumb_'.$image) }}"
                class="img-rounded gallery-image"
