@@ -15,8 +15,8 @@ var prev = function() {
   var dataImageLoad = selected.prev().attr('data-image-load');
 
   if (!dataImageLoad) {
-    selected = $('.gallery-container').children(":last");
-    dataImageLoad = $('.gallery-container').children(":last").attr('data-image-load');
+    selected = $('#gallery-container').children(":last");
+    dataImageLoad = $('#gallery-container').children(":last").attr('data-image-load');
   }
 
   selected.removeClass('selected-gallery-image');
@@ -32,8 +32,8 @@ var next = function() {
   var dataImageLoad = selected.next().attr('data-image-load');
 
   if (!dataImageLoad) {
-    selected = $('.gallery-container').children(":first");
-    dataImageLoad = $('.gallery-container').children(":first").attr('data-image-load');
+    selected = $('#gallery-container').children(":first");
+    dataImageLoad = $('#gallery-container').children(":first").attr('data-image-load');
   }
 
   selected.removeClass('selected-gallery-image');
