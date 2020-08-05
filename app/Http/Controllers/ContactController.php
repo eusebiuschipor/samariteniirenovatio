@@ -17,4 +17,15 @@ class ContactController extends Controller
 
         return view('contact', $view);
     }
+    /**
+     * Show the contact page
+     *
+     * @return View
+     */
+    public function donateForCarmen()
+    {
+        $view = [];
+
+        return view('doneaza-pentru-carmen', $view);
+    }
 }

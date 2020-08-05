@@ -86,10 +86,10 @@
         </nav>
 
         <!--Section: Contact v.2-->
-        <section class="mb-4 contact">
+    <section class="mb-4 contact">
 
             <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Implică-te</h2>
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Ajut-o pe Carmen să vadă!</h2>
             <!--Section description-->
             <p class="text-center w-responsive mx-auto mb-5">
                 Un gest mic poate face o mare diferenţă!
@@ -101,8 +101,14 @@
                 <span class="contact-line">RO60RNCB0065157528730001 - valută RON</span>
                 <span class="contact-line">RO33RNCB0065157528730002 - valută EUR</span>
                 <span class="contact-line">RO06RNCB0065157528730003 - valută USD</span>
-                <span class="contact-line red"><strong>Va rugam sa treceti la detalii plata: "Pentru Samaritenii"</strong></span>
+                <span class="contact-line red"><strong>Va rugam sa treceti la detalii plata: "Pentru Carmen"</strong></span>
                 <span class="contact-line">Sucursala Bucureştii Noi, Bucureşti B-dul Bucureştii Noi nr. 170, Sector 1, cod poştal 012369, Bucureşti Cod Swift RNCBROBU</span>
+            </div>
+
+            <div class="text-center donate-with-card-button">
+                <a href="https://pay.galantom.ro/donation_forms/view?id=3" target="_blank" class="donate-with-card-button">
+                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase donate-button" name="submit" type="submit">Donează cu cardul</button>
+                </a>
             </div>
 
             <!--Section heading-->

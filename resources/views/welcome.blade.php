@@ -76,6 +76,9 @@
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="/sos">SOS Samaritenii</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/doneaza">Donează</a>
+              </li>
             </ul>
           </div>
         </div>

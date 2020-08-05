@@ -31,21 +31,21 @@
         <!-- <div id="loading"></div> -->
 
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <div id="myModal" class="modal donate-modal">
 
-        <!-- Modal content -->
-        <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">&times;</span>
-        </div>
-        <div class="modal-body">
-            <!-- Next and previous buttons -->
-            <a class="prev">&#10094;</a>
-            <a class="next">&#10095;</a>
-            <div id="modal-container">
+            <!-- Modal content -->
+            <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
             </div>
-        </div>
-        </div>
+            <div class="modal-body">
+                <!-- Next and previous buttons -->
+                <!-- <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a> -->
+                <div id="modal-container">
+                </div>
+            </div>
+            </div>
 
         </div>
 
@@ -77,6 +77,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="/sos">SOS Samaritenii</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/doneaza">Donează</a>
+                </li>
             </ul>
             </div>
             </div>
@@ -86,13 +89,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        <iframe 
+                            width="1280" 
+                            height="720" 
+                            src="https://www.youtube.com/embed/QPpCUNl2AfU" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="contact-information">
-                            INFORMAŢII CONTACT
-                        </div>
-                        <a href="/contact">
+                        <h2 class="contact-information section-heading text-uppercase">Ajut-o pe Carmen să vadă</h2>
+                        <a href="/doneaza-pentru-carmen">
                             <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase donate-button" name="submit" type="submit">Donează</button>
                         </a>
                     </div>
@@ -101,8 +109,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 clearfix">
-                        <h4>Prezentarea de caz</h4>
-                        <img class="d-block w-100 float-left principal" src="{{ URL::asset('img/home-carousel/2.png') }}">
+                        <img class="d-block w-100 float-left principal" src="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/1.jpeg') }}">
                         <p>
                             Carmen are 1 an și 8 luni , este din județul Brașov și s-a născut cu mari probleme de sănătate.
                         </p>
@@ -134,30 +141,31 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h4>Documente medicale</h4>
-                    </div>
-                </div>
                 <div class="row donate-gallery-container" id="gallery-container">
-                    <img data-image-load="{{ URL::asset('img/home-carousel/1.png') }}"
-                        class="d-block w-100 float-left medical-doc gallery-image col-lg-2 col-md-6 col-sm-12" 
-                        src="{{ URL::asset('img/home-carousel/1.png') }}">
-                    <img data-image-load="{{ URL::asset('img/home-carousel/2.png') }}"
-                        class="d-block w-100 float-left medical-doc gallery-image col-lg-2 col-md-6 col-sm-12" 
-                        src="{{ URL::asset('img/home-carousel/2.png') }}">
-                    <img data-image-load="{{ URL::asset('img/home-carousel/3.png') }}"
-                        class="d-block w-100 float-left medical-doc gallery-image col-lg-2 col-md-6 col-sm-12" 
-                        src="{{ URL::asset('img/home-carousel/3.png') }}">
-                    <img data-image-load="{{ URL::asset('img/home-carousel/1.png') }}"
-                        class="d-block w-100 float-left medical-doc gallery-image col-lg-2 col-md-6 col-sm-12" 
-                        src="{{ URL::asset('img/home-carousel/1.png') }}">
-                    <img data-image-load="{{ URL::asset('img/home-carousel/2.png') }}"
-                        class="d-block w-100 float-left medical-doc gallery-image col-lg-2 col-md-6 col-sm-12" 
-                        src="{{ URL::asset('img/home-carousel/2.png') }}">
-                    <img data-image-load="{{ URL::asset('img/home-carousel/3.png') }}"
-                        class="d-block w-100 float-left medical-doc gallery-image col-lg-2 col-md-6 col-sm-12" 
-                        src="{{ URL::asset('img/home-carousel/3.png') }}">
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img data-image-load="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/2.jpeg') }}" class="gallery-image" 
+                            src="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/2.jpeg') }}">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img data-image-load="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/1.jpeg') }}" class="gallery-image" 
+                            src="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/1.jpeg') }}">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img data-image-load="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/4.jpeg') }}" class="gallery-image" 
+                            src="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/4.jpeg') }}">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img data-image-load="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/5.jpeg') }}" class="gallery-image" 
+                            src="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/5.jpeg') }}">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img data-image-load="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/6.jpeg') }}" class="gallery-image" 
+                            src="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/6.jpeg') }}">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <img data-image-load="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/7.jpeg') }}" class="gallery-image" 
+                            src="{{ URL::asset('img/donate/ajut-o-pe-carmen-sa-vada/7.jpeg') }}">
+                    </div>
                 </div>
             </div>                
         </section>
