@@ -897,6 +897,14 @@ nav.photo-gallery {
   max-height: 80vh;
 }
 
+.donate-modal #modal-container img {
+  max-height: 100vh;
+}
+
+.donate-modal {
+  padding-top: 0px;
+}
+
 .gallery-container img {
    width: 100% !important;
    height: auto !important;
@@ -1355,6 +1363,17 @@ a:hover {
   margin-top: 0px;
 }
 
+.donate-with-card-button {
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .donate-gallery-container img {
+    max-height: 200px;
+    margin-right: 20px;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #myModal {
     width: 100%;
@@ -1659,6 +1678,12 @@ a:hover {
   .donate {
     padding-top: 0;
   }
+
+  .donate-gallery-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
 
 /* 
@@ -1777,6 +1802,12 @@ a:hover {
   .donate {
     padding-top: 0;
   }
+
+  .donate-gallery-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
 
 /* 
@@ -1886,6 +1917,12 @@ a:hover {
   .donate {
     padding-top: 0;
   }
+
+  .donate-gallery-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -1977,6 +2014,12 @@ a:hover {
 
   .donate {
     padding-top: 0;
+  }
+
+  .donate-gallery-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
 }
 
